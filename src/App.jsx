@@ -4,6 +4,7 @@ import AppName from "./components/AppName";
 import TodoItems from "./components/TodoItems";
 import EmptyItemsMessage from "./components/EmptyItemsMessage";
 import Container from "./components/Container";
+import FormComponent from "./components/FormComponent";
 
 function App() {
   let itemsArr = [
@@ -36,7 +37,6 @@ function App() {
   return (
     <div>
       <Container>
-
         <AppName />
 
         <AddTodo newItemsHandler={newItemsHandler} />
@@ -44,7 +44,11 @@ function App() {
         {items.length === 0 && <EmptyItemsMessage />}
 
         <TodoItems items={items} onDelete={deleteClickHandler} />
-        
+      </Container>
+      
+      <br />
+      <Container>
+        <FormComponent />
       </Container>
     </div>
   );
