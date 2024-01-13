@@ -1,0 +1,9 @@
+.myContainer {
+  border: 5px solid blue;
+  box-shadow: 14px 10px rgb(00, 00, 00, 0.8);
+  width: 1000px;
+  margin: 50px;
+}
+.myContainer:hover {
+  border: 3px solid red;
+}

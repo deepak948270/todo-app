@@ -1,0 +1,23 @@
+/* css file for App.jsx 
+it overrides the property of bootstrap file */
+
+body{
+    background-color: rgb(205, 243, 201);
+}
+
+
+h1{
+    color: rgb(24, 18, 148);
+    font-size: 80px;
+    font-weight: 400;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+}
+
+.thapakrow{
+    margin-top: 10px;
+}
